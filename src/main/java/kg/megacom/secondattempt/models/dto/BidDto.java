@@ -14,7 +14,7 @@ import java.util.Date;
 
 @Data
 @ApiModel(value = "Класс Ставка",description = "Для хранения информации о ставках")
-public class BirDto {
+public class BidDto {
     private Long id;
     private Date addDate;
     private double bidValue;
